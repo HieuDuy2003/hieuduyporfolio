@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat;
+}
+.footer {
+    background-color: aqua;
+}
+.footer .top {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+.footer .top .left {
+    margin: 0 100px;
+    width: 50%;
+    background-color: brown;
+    padding: 50px;
+}
+.footer .top .left h2 {
+    margin-bottom: 10px;
+}
+.footer .top .left p {
+    margin-bottom: 20px;
+}
